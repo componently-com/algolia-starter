@@ -1,6 +1,6 @@
 const searchClient = algoliasearch(
-  "", // Application ID
-  "" // earch-Only API Key
+  "APPLICATION_ID",
+  "SEARCH_ONLY_API_KEY"
 );
 
 const search = instantsearch({
